@@ -6,7 +6,7 @@ test('basic rules', t => {
   const input = `
   .foo { width: 100%; }`;
   const output = parse(ctx)(input);
-  t.snapshot(JSON.stringify(output, null, 2));
+  t.snapshot(output);
 });
 
 test('@keyframes', t => {
@@ -17,7 +17,7 @@ test('@keyframes', t => {
     to   { lol: 100vh; }
   }`;
   const output = parse(ctx)(input);
-  t.snapshot(JSON.stringify(output, null, 2));
+  t.snapshot(output);
 });
 
 test('@media', t => {
@@ -29,7 +29,7 @@ test('@media', t => {
     }
   }`;
   const output = parse(ctx)(input);
-  t.snapshot(JSON.stringify(output, null, 2));
+  t.snapshot(output);
 });
 
 test('@font-face', t => {
@@ -44,7 +44,7 @@ test('@font-face', t => {
          url('https://fonts.gstatic.com/s/...');
   }`;
   const output = parse(ctx)(input);
-  t.snapshot(JSON.stringify(output, null, 2));
+  t.snapshot(output);
 });
 
 
