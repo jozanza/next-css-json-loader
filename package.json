@@ -4,8 +4,14 @@
   "description": "transforms .css files into js modules that export style rules as json",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
   "dependencies": {
     "css": "2.2.1",
-    "datauri": "1.0.5",
+    "datauri": "1.0.5"
+  },
+  "devDependencies": {
+    "ava": "0.18.1"
   }
 }

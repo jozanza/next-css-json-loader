@@ -1,0 +1,20 @@
+exports[`@font-face 1`] = `""{
+  "charset": [],
+  "fontFace": [
+    {
+      "fontFamily": "'Open Sans'",
+      "fontStyle": "normal",
+      "fontWeight": "400",
+      "src": "local('Open Sans'),\n         local('OpenSans'),\n         url(\"https://fonts.gstatic.com/s/...\")"
+    }
+  ],
+  "rule": [],
+  "media": [],
+  "keyframes": []
+}""`;
+
+exports[`@keyframes 1`] = `"\"{\\n  \\\"charset\\\": [],\\n  \\\"fontFace\\\": [],\\n  \\\"rule\\\": [],\\n  \\\"media\\\": [],\\n  \\\"keyframes\\\": [\\n    [\\n      \\\"bounce\\\",\\n      {\\n        \\\"0%,50%\\\": {\\n          \\\"blah\\\": \\\".5\\\"\\n        },\\n        \\\"to\\\": {\\n          \\\"lol\\\": \\\"100vh\\\"\\n        }\\n      }\\n    ]\\n  ]\\n}\""`;
+
+exports[`@media 1`] = `"\"{\\n  \\\"charset\\\": [],\\n  \\\"fontFace\\\": [],\\n  \\\"rule\\\": [],\\n  \\\"media\\\": [\\n    {\\n      \\\"@media(min-width: 100px; max-width: 1000px)\\\": {\\n        \\\".foo\\\": {\\n          \\\"bar\\\": \\\"88px\\\"\\n        }\\n      }\\n    }\\n  ],\\n  \\\"keyframes\\\": []\\n}\""`;
+
+exports[`basic rules 1`] = `"\"{\\n  \\\"charset\\\": [],\\n  \\\"fontFace\\\": [],\\n  \\\"rule\\\": [\\n    {\\n      \\\".foo\\\": {\\n        \\\"width\\\": \\\"100%\\\"\\n      }\\n    }\\n  ],\\n  \\\"media\\\": [],\\n  \\\"keyframes\\\": []\\n}\""`;
