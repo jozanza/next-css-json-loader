@@ -5,13 +5,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava"
   },
   "dependencies": {
     "css": "2.2.1",
     "datauri": "1.0.5"
   },
   "devDependencies": {
-    "ava": "0.18.1"
+    "ava": "0.18.1",
+    "coveralls": "2.11.16",
+    "nyc": "10.1.2"
   }
 }
