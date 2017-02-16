@@ -48,7 +48,7 @@ After setting the project, you may import CSS files like so:
 ```js
 // .css files now conveniently expose all styles as js objects
 import styles, {
-  rules,
+  rule,
   media,
   keyframes,
   fontFace,

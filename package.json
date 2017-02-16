@@ -1,6 +1,6 @@
 {
   "name": "next-css-json-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "transforms .css files into js modules that export style rules as json",
   "main": "index.js",
   "license": "MIT",
