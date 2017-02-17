@@ -4,6 +4,10 @@
   "description": "transforms .css files into js modules that export style rules as json",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jozanza/next-css-json-loader.git"
+  },
   "scripts": {
     "test": "nyc ava"
   },
