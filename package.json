@@ -1,6 +1,6 @@
 {
   "name": "next-css-json-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "transforms .css files into js modules that export style rules as json",
   "main": "index.js",
   "license": "MIT",
@@ -12,8 +12,7 @@
     "test": "nyc ava"
   },
   "dependencies": {
-    "css": "2.2.1",
-    "datauri": "1.0.5"
+    "jsonify-css": "0.0.2"
   },
   "devDependencies": {
     "ava": "0.18.1",

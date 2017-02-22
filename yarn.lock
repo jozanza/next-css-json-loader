@@ -1729,6 +1729,13 @@ json5@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
 
+jsonify-css@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/jsonify-css/-/jsonify-css-0.0.2.tgz#13a208c4a1ce7ad17c9e8b863d39e6f66b13f195"
+  dependencies:
+    css "2.2.1"
+    datauri "1.0.5"
+
 jsonpointer@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/jsonpointer/-/jsonpointer-4.0.1.tgz#4fd92cb34e0e9db3c89c8622ecf51f9b978c6cb9"
