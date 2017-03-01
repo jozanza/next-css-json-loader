@@ -1,3 +1,5 @@
+> **DEPRECATION NOTICE:** `next-css-json-loader` is deprecated in favor of [babel-plugin-jsonfy-css](https://github.com/jozanza/babel-plugin-jsonify-css). Please use it instead. Thank you!
+
 # next-css-json-loader
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Coverage Status][coveralls-image]][coveralls-url]
